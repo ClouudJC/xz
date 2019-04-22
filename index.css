@@ -1,0 +1,249 @@
+
+.carousel-control-next,.carousel-control-prev{
+    width: 4%;
+    height: 20%;
+    top: 40%;
+    background: #aaa;
+    border-radius:0.25rem; 
+}
+ul.carousel-indicators li{
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+ul.carousel-indicators .active{
+    background: #0aa1ed;
+}
+.floor-top{
+    font-size: 24px;
+    color: #666666;
+    margin-top: 2rem;
+    border-bottom: 2px solid #d9d9d9;
+    margin-bottom: 1rem;
+}
+.floor-top img{
+    margin-right: 1rem;
+}
+.bg-gary{
+    background: #e8e8e8;
+}
+.floor-content-1>div>div{
+    height: 377px;
+}
+.floor-content-2>div>div,.floor-content-2 div.bg-gary{
+    height: 235px;
+}
+
+
+
+.card{
+    width: 245px;
+    background-color: #e8e8e8;
+}
+.card>.card-header p:first-child{
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 0;
+}
+.card>.card-header p:last-child{
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 24px;
+}
+
+
+
+.card>div{
+    background-color: #e8e8e8;
+}
+
+.clearmargin::before{
+    content:"";
+    display: table;
+}
+.card .card-body{
+    color: #0aa1ed;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+.card a{
+    display: block;
+    padding: 0;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    background: linear-gradient(to bottom,#27b1f6 0%, #0aa1ed 100%);
+    text-decoration: none;
+}
+.my_img_position{
+    margin-top:-235px; 
+    margin-right: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+.my_img_position:hover{
+    transform: scale(1.05);
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .my_img_position{
+        margin-top:-210px; 
+        margin-right: 5px;
+    }
+    .card{
+        position: static;
+    }
+    .card{
+        width: 180px;
+        background-color: #e8e8e8;
+    }
+    .card>.card-header p:first-child{
+        font-size: 28px;
+        color: #333;
+        margin-bottom: 0;
+        line-height: 28px;
+    }
+    .card>.card-header p:last-child{
+        font-size: 12px;
+        color: #666;
+        margin-bottom: 12px;
+    }
+    
+}
+@media screen and (max-width:767px){
+    .my_img_position{
+        margin-top:-230px; 
+        margin-right: 30px;
+    }
+    .card{
+        width: 180px;
+        background-color: #e8e8e8;
+    }
+    .card>.card-header p:first-child{
+        font-size: 28px;
+        color: #333;
+        margin-bottom: 0;
+        line-height: 28px;
+    }
+    .card>.card-header p:last-child{
+        font-size: 12px;
+        color: #666;
+        margin-bottom: 12px;
+    }
+    
+}
+.my_img_position_1{
+    margin-top:-190px; 
+    margin-right: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+.my_img_position_1:hover{
+    transform: scale(1.05);
+}
+@media screen and (min-width:768px){
+    .my_img_position_1{
+        margin-top:-139px; 
+        margin-right: 15px;
+    }
+    .mycard1{
+        position: static;
+    }
+}
+@media screen and (max-width:991px) and (min-width:768px){
+    .my_img_position_1{
+        margin-top:-85px; 
+        margin-right: 0px;
+    }
+    .my_a_1{
+        width: 60% !important;
+    }
+}
+.title1{
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 0;
+    width: 150px;
+}
+.mycard2{
+    margin-left: 25px;
+    margin-top: 0;
+    width: 150px;
+}
+.my_img_position_2{
+    margin-top: -140px;
+    margin-right: 0px;
+}
+.floor-content-2 img{
+    transition: 1s;
+    cursor: pointer;
+}
+.floor-content-2 img:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width:991px) and (min-width:768px){
+    .mycard2{
+        margin-left: 0px;
+    }
+    .title1{
+        width: 100px;
+    }
+    .myfont-1{
+        font-size: 22px !important;
+        width: 100px;
+    }
+}
+@media screen and (max-width:767px){
+    .mycard2{
+        margin-left: 50px;
+    }
+    .my_img_position_2{
+        margin-right: 50px;
+    }
+}
+.my_img_position_3{
+    text-align: center;
+    width: 100%;
+}
+.mycard3{
+    width: 100%;
+    text-align:center;
+}
+.title2{
+    font-size: 12px;
+    color: #333;
+}
+.myfont-2{
+    font-size: 24px;
+    color: #0aa1ed;
+}
+.my_a_2{
+    margin: 0 auto;
+    width: 100% !important;
+}
+.mycard4{
+    width: 100%;
+    text-align:center;
+}
+@media screen and (min-width:992px){
+    .my_img_position_1 {
+        margin-top: -163px;
+        margin-right: 15px;
+    }
+    .mycard-header-1{
+        width: 210px;
+    }
+}
+@media screen and (min-width:992px){
+    .my_a_2{
+        width: 135px !important;
+    }
+    .mycard4{
+        margin-top: -5px !important;
+    }
+}
